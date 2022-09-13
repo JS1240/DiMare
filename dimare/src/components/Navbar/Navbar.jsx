@@ -19,6 +19,23 @@ const Navbar = () => (
     </ul>
     <div className="app__navbar-language">
       <img src={images.cro} alt="app__cro" />
+        <div />
+      <img src={images.eng} alt="app__eng" />
+    </div>
+    <div className="app__navbar-smallscreen">
+      <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => {}}/>
+
+      <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+        <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => {}}/>
+        <ul className="app__navbar-smallscreen-links">
+          <li className="p__opensans"><a href="#home">Naslovna</a></li>
+          <li className="p__opensans"><a href="#about">Naša priča</a></li>
+          <li className="p__opensans"><a href="#menu">Ponuda</a></li>
+          <li className="p__opensans"><a href="#franchise">Franšiza</a></li>
+          <li className="p__opensans"><a href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
+
     </div>
   </nav>
 );

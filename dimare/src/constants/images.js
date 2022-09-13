@@ -21,8 +21,10 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import cro from '../assets/cro.png';
+import eng from '../assets/eng.png';
 
 export default {
+  eng,
   cro,
   bg,
   chef,
