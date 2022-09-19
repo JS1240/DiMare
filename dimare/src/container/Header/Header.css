@@ -1,0 +1,18 @@
+.app__header {
+    background: url('../../assets/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 120px;
+    padding: 1rem 3rem;
+    text-align: left;
+}

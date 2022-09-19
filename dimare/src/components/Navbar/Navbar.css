@@ -102,14 +102,14 @@
 .app__navbar-smallscreen-links li {
     margin: 2rem;
     cursor: pointer;
-    color: var(--color-golden);
+    color: var(--color-white);
     font-size: 2rem;
     text-align: center;
     font-family: var(--font-base);
 }
 
 .app__navbar-smallscreen-links li:hover {
-    color: var(--color-white);
+    color: var(--color-grey);
 }
 
 @media screen and (max-width: 2000px) {
@@ -130,7 +130,7 @@
 
 @media screen and (max-width: 650px) {
     .app__navbar {
-        padding: 0.3rem;
+        padding: 0.3rem 2rem;
     }
 
     .app__navbar-language {
